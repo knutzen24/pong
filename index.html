@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<title>Game</title>
+
+
+<style>
+
+#canvas {
+	border: 1px solid black;
+	display: block;
+}
+
+#sound {
+	height: 0px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<audio id="backgroundMusic" loop></audio>
+
+<audio src="media/Pling.mp3" id="sound"></audio>
+
+<canvas id="canvas" width="800" height="300" tabindex='1'></canvas>
+
+<button onclick="init();">Start Game</button><br>
+
+</body>
+
+<script src="randomGame.js"></script>
+
+</html>
